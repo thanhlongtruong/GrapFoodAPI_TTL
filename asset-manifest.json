@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GrapFoodAPI_TTL/static/css/main.e649cf98.css",
+    "main.js": "/GrapFoodAPI_TTL/static/js/main.f827d9fc.js",
+    "static/js/453.8ab44547.chunk.js": "/GrapFoodAPI_TTL/static/js/453.8ab44547.chunk.js",
+    "static/media/look.png": "/GrapFoodAPI_TTL/static/media/look.7c78d6d11d36a9fcc314.png",
+    "index.html": "/GrapFoodAPI_TTL/index.html",
+    "main.e649cf98.css.map": "/GrapFoodAPI_TTL/static/css/main.e649cf98.css.map",
+    "main.f827d9fc.js.map": "/GrapFoodAPI_TTL/static/js/main.f827d9fc.js.map",
+    "453.8ab44547.chunk.js.map": "/GrapFoodAPI_TTL/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e649cf98.css",
+    "static/js/main.f827d9fc.js"
+  ]
+}
