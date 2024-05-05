@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ttlS-header {
+  @apply pointer-events-none rounded border border-gray-300 bg-white p-2  font-normal;
+}
+.ttlS-header-sm {
+  @apply pointer-events-none rounded border border-gray-300 bg-white p-1 text-xs font-medium;
+}
+.ttlS-box-1200 {
+  @apply lg:mx-auto lg:flex lg:w-[1200px] lg:flex-row lg:items-center lg:justify-between;
+}
+.ttlS-title {
+  @apply mb-7 flex text-xl font-bold sm:text-4xl;
+}
+.ttlS-rounded-md {
+  @apply mb-3 h-auto w-auto rounded-md;
+}
+.ttlS-flex {
+  @apply flex items-center justify-between;
+}
+.ttlS-flex-sm {
+  @apply sm:flex sm:flex-row sm:items-center sm:justify-between;
+}
+.ttlS-btnMore {
+  @apply my-8 mt-10 h-12 w-full rounded-md border py-3 text-center font-bold text-gray-500 hover:border-green-500 hover:text-green-500 hover:transition hover:duration-500 hover:ease-in;
+}
+.ttlS-ruler {
+  @apply my-5 w-full border bg-green-300 sm:my-10;
+}
+.ttlS-repon {
+  @apply h-fit w-full px-2 sm:px-8 lg:px-16;
+}
+.ttlS-hideShow {
+  @apply hidden sm:block;
+}
+.ttlS-grid1to2to4 {
+  @apply grid grid-cols-2 gap-x-4 gap-y-8 lg:grid-cols-4;
+}
+.ttlS-arrowBg {
+  @apply absolute top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full text-center hover:bg-gray-200 hover:text-white hover:duration-300 hover:ease-in;
+}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+} */
